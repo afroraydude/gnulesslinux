@@ -4,10 +4,10 @@ A Linux Distribution with a non-GNU Userland
 ## Replacement Checklist
 - [ ] autoconf
 - [ ] automake
-- [ ] bash (planned: [heirloom's bourne shell](http://heirloom.sourceforge.net/sh.html)
+- [ ] bash (planned: [heirloom's bourne shell](http://heirloom.sourceforge.net/sh.html))
 - [ ] binutils
 - [ ] bison
-- [ ] coreutils (planned: [heirloom](http://heirloom.sourceforge.net)
+- [ ] coreutils (planned: [heirloom](http://heirloom.sourceforge.net))
 - [ ] dejagnu
 - [ ] diffutils
 - [ ] findutils
