@@ -12,7 +12,7 @@ A Linux Distribution with a non-GNU Userland
 - [ ] diffutils
 - [ ] findutils
 - [ ] gawk
-- [ ] gcc (planned: [clang](https://clang.llvm.org)
+- [ ] gcc (planned: [clang](https://clang.llvm.org))
 - [ ] gdbm
 - [ ] gettext
 - [ ] glibc (planned: [musl-libc](http://www.musl-libc.org))
