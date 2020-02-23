@@ -5,7 +5,7 @@ A Linux Distribution with a non-GNU Userland created by [afroraydude](https://gi
 Because in some ways a GNU userland could be seen as bloated or too large, therefore I have decided to create a system that replaces the core GNU packages found in most Linux distributions. 
 
 ## Download
-Downloads will be available on my repo found [here](https://packages.afroraydude.com).
+Downloads will be available on my repo found [here](http://packages.afroraydude.com).
 
 ## More details about the system
 The system will use [uspm](https://github.com/afroraydude/uspm) as its package manager. It will be shell-only for now.
