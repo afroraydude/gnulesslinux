@@ -4,23 +4,23 @@ A Linux Distribution with a non-GNU Userland
 ## Replacement Checklist
 - [ ] autoconf
 - [ ] automake
-- [ ] bash
+- [ ] bash (planned: [heirloom's bourne shell](http://heirloom.sourceforge.net/sh.html)
 - [ ] binutils
 - [ ] bison
-- [ ] coreutils
+- [ ] coreutils (planned: [heirloom](http://heirloom.sourceforge.net)
 - [ ] dejagnu
 - [ ] diffutils
 - [ ] findutils
 - [ ] gawk
-- [ ] gcc
+- [ ] gcc (planned: [clang](https://clang.llvm.org)
 - [ ] gdbm
 - [ ] gettext
-- [ ] glibc
+- [ ] glibc (planned: [musl-libc](http://www.musl-libc.org))
 - [ ] gmp
 - [ ] gperf
 - [ ] grep
 - [ ] groff
-- [ ] grub
+- [ ] grub (planned: (e)lilo)
 - [ ] gzip
 - [ ] inetutils
 - [ ] libtool
