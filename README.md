@@ -31,11 +31,11 @@ The system will use [uspm](https://github.com/afroraydude/uspm) as its package m
 - [ ] groff
 - [ ] grub (planned: (e)lilo)
 - [ ] gzip
-- [ ] inetutils
+- [ ] inetutils (iputils?)
 - [ ] libtool
 - [ ] m4
 - [ ] make
 - [ ] ncurses
 - [ ] sed
-- [ ] tar
+- [ ] tar (bsdtar/libarchive?)
 - [ ] texinfo
