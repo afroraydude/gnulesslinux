@@ -1,10 +1,21 @@
-# gnulesslinux
+# WombatOS - a GNU-less Linux Distro
+```
+__          __             _           _    ____   _____ 
+\ \        / /            | |         | |  / __ \ / ____|
+ \ \  /\  / /__  _ __ ___ | |__   __ _| |_| |  | | (___  
+  \ \/  \/ / _ \| '_ ` _ \| '_ \ / _` | __| |  | |\___ \ 
+   \  /\  / (_) | | | | | | |_) | (_| | |_| |__| |____) |
+    \/  \/ \___/|_| |_| |_|_.__/ \__,_|\__|\____/|_____/ 
+```
+
 A Linux Distribution with a non-GNU Userland created by [afroraydude](https://github.com/afroraydude)
+
+[official site](https://afroraydude/wombatos)
 
 [![version](https://img.shields.io/badge/version-indev-blue?style=for-the-badge)](https://packages.afroraydude.com/wombatos)
 
 ## Why? 
-Because in some ways a GNU userland could be seen as bloated or too large, therefore I have decided to create a system that replaces the core GNU packages found in most Linux distributions. 
+I wanted to see how far I could go with this
 
 ## Download
 The current version is: indev
@@ -15,31 +26,31 @@ Downloads will be available on my repo found [here](http://packages.afroraydude.
 The system will use [uspm](https://github.com/afroraydude/uspm) as its package manager, with the default mirror as my own mirror found [here](http://packages.afroraydude.com/uspm/). It will be shell-only for now.
 
 ## Replacement Checklist
-- [ ] autoconf
-- [ ] automake
-- [ ] bash (planned: [heirloom's bourne shell](http://heirloom.sourceforge.net/sh.html))
-- [ ] binutils
+- [ ] autoconf (avise the use of cmake?)
+- [ ] automake (advise the use of cmake?)
+- [ ] bash - Bash is installed and is still default, but Heirloom's shell is also installed. Bash is installed for compatibility reasons. 
+- [ ] binutils (find althernatives and make a package of them?)
 - [ ] bison
-- [ ] coreutils (planned: [heirloom](http://heirloom.sourceforge.net))
+- [X] coreutils ([heirloom](http://heirloom.sourceforge.net))
 - [ ] dejagnu
-- [ ] diffutils
+- [ ] diffutils (maybe just don't include?)
 - [ ] findutils
 - [ ] gawk
 - [ ] gcc (planned: [clang](https://clang.llvm.org))
 - [ ] gdbm
 - [ ] gettext
-- [ ] glibc (planned: [musl-libc](http://www.musl-libc.org))
+- [X] glibc ([musl-libc](http://www.musl-libc.org))
 - [ ] gmp
 - [ ] gperf
 - [ ] grep (ripgrep?)
-- [ ] groff (maybe just don't include?)
+- [ ] groff ([heirloom](http://heirloom.sourceforge.net))
 - [ ] grub (planned: (e)lilo)
 - [ ] gzip (maybe just don't include?)
-- [ ] inetutils (iputils?)
-- [ ] libtool (slibtool?)
-- [ ] m4 ([netbsd m4?](https://github.com/idunham/m4))
+- [ ] inetutils (iputils)
+- [ ] libtool (slibtool)
+- [ ] m4 ([netbsd m4](https://github.com/idunham/m4))
 - [ ] make (bsd make)
 - [ ] ncurses (curses)
 - [ ] sed (just use ed?)
-- [ ] tar (bsdtar/libarchive?)
+- [X] tar (libarchive along with Heirloom's tar)
 - [ ] texinfo
