@@ -1,4 +1,4 @@
-# WombatOS - a GNU-less Linux Distro
+# WombatOS - an **attempt** at a GNU-less Linux Distro
 ```
 __          __             _           _    ____   _____ 
 \ \        / /            | |         | |  / __ \ / ____|
