@@ -28,12 +28,12 @@ The system will use [uspm](https://github.com/afroraydude/uspm) as its package m
 ## Replacement Checklist
 - [ ] autoconf (avise the use of cmake?)
 - [ ] automake (advise the use of cmake?)
-- [ ] bash - Bash is installed and is still default, but Heirloom's shell is also installed. Bash is installed for compatibility reasons. 
-- [ ] binutils (find althernatives and make a package of them?)
-- [ ] bison
-- [X] coreutils ([heirloom](http://heirloom.sourceforge.net))
+- [X] bash - Bash is installed and is still default, but Heirloom's shell is also installed. Bash is installed for compatibility reasons. 
+- [ ] binutils (installed, planned: lld (LLVM))
+- [ ] bison 
+- [X] coreutils - Coreutils are installed, *however*, they are not the default tools, and instead the tools available are part of the Heirloom project, which is based of of OpenSolaris
 - [ ] dejagnu
-- [ ] diffutils (maybe just don't include?)
+- [X] diffutils (see coreutils, same applies)
 - [ ] findutils
 - [ ] gawk
 - [ ] gcc (planned: [clang](https://clang.llvm.org))
@@ -43,7 +43,7 @@ The system will use [uspm](https://github.com/afroraydude/uspm) as its package m
 - [ ] gmp
 - [ ] gperf
 - [ ] grep (ripgrep?)
-- [ ] groff ([heirloom](http://heirloom.sourceforge.net))
+- [X] groff (see coreutils, same applies)
 - [ ] grub (planned: (e)lilo)
 - [ ] gzip (maybe just don't include?)
 - [ ] inetutils (iputils)
@@ -52,5 +52,5 @@ The system will use [uspm](https://github.com/afroraydude/uspm) as its package m
 - [ ] make (bsd make)
 - [ ] ncurses (curses)
 - [ ] sed (just use ed?)
-- [X] tar (libarchive along with Heirloom's tar)
+- [X] tar (see coreutils, same applies)
 - [ ] texinfo
