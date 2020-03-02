@@ -12,7 +12,7 @@ A Linux Distribution with a non-GNU Userland created by [afroraydude](https://gi
 
 [official site](https://afroraydude/wombatos)
 
-[![version](https://img.shields.io/badge/version-indev-blue?style=for-the-badge)](https://packages.afroraydude.com/wombatos)
+[![version](https://img.shields.io/badge/version-0.1-blue?style=for-the-badge)](https://packages.afroraydude.com/wombatos)
 
 ## Why? 
 I wanted to see how far I could go with this
@@ -24,6 +24,10 @@ Downloads will be available on my repo found [here](http://packages.afroraydude.
 
 ## More details about the system
 The system will use [uspm](https://github.com/afroraydude/uspm) as its package manager, with the default mirror as my own mirror found [here](http://packages.afroraydude.com/uspm/). It will be shell-only for now.
+
+## Support
+
+[Chat with the dev](https://keybase.io/afroraydude/chat)
 
 ## Replacement Checklist
 - [ ] autoconf (avise the use of cmake?)
