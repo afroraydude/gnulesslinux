@@ -10,7 +10,7 @@ __          __             _           _    ____   _____
 
 A Linux Distribution with a non-GNU Userland created by [afroraydude](https://github.com/afroraydude)
 
-[official site](https://afroraydude/wombatos)
+[Official site](https://afroraydude.com/wombatos)
 
 [![version](https://img.shields.io/badge/version-0.1-blue?style=for-the-badge)](https://packages.afroraydude.com/wombatos)
 
@@ -18,7 +18,7 @@ A Linux Distribution with a non-GNU Userland created by [afroraydude](https://gi
 I wanted to see how far I could go with this
 
 ## Download
-The current version is: indev
+The current version is: v0.1-alpha
 
 Downloads will be available on my repo found [here](http://packages.afroraydude.com/wombatos/)
 
