@@ -59,7 +59,3 @@ The system will use [uspm](https://github.com/afroraydude/uspm) as its package m
 - [ ] sed (just use ed?)
 - [X] tar (see coreutils, same applies)
 - [ ] texinfo
-
-
-## Sponsors
-[![Windship LLC](https://windship.net/wp-content/uploads/2020/03/test-logo.png)](https://www.windship.net)
