@@ -26,6 +26,12 @@ Downloads will be available on my repo found [here](http://packages.afroraydude.
 ## More details about the system
 The system will use [uspm](https://github.com/afroraydude/uspm) as its package manager, with the default mirror as my own mirror found [here](http://packages.afroraydude.com/uspm/). It will be shell-only for now.
 
+## Special thanks
+[dslm4515@github](https://github.com/dslm4515) for making the [MUSL-LFS guidebook](https://github.com/dslm4515/Musl-LFS) that Wombat Linux was first built with.
+
+[Alpine Linux](https://alpinelinux.org/) for being musl-based and being a general guide for any extra libs/programs I wanted to add
+[Void Linux](https://voidlinux.org/) for all the patches. Seriously.
+
 ## Support
 
 [Chat with the dev](https://keybase.io/afroraydude/chat)
