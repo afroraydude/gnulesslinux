@@ -2,6 +2,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     object-fit: scale-down;
+}
+
+.center-horiz {
+    text-align: center;
 }
