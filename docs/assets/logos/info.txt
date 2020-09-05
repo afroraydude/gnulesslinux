@@ -1,14 +1,18 @@
 
 Hope you enjoy your new logo, here are the people that
 made your beautiful logo happen :)
-font name: Archivo-SemiBold
-font link: https://fonts.google.com/specimen/Archivo
-font author: Omnibus-Type
-font author site: http://www.omnibus-type.com/
+font name: Now-Regular
+font link: https://hanken.co/product/now/
+font author: Hanken Design Co.
+font author site: https://hanken.co/
 
 
 icon designer: parkjisun
 icon designer link: /naripuru
         
-{"bg":"transparent","icon-gradient-0":"#5F2517","icon-gradient-1":"#CAB08D","font":"#000000","slogan":"#141414"}
+
+fontColor: {"hex":"#584437"}
+bgColor: {"hex":"#FFFFFF"}
+iconColor: {"hex":"#584437"}
+
       
