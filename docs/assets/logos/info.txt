@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Archivo-SemiBold
+font link: https://fonts.google.com/specimen/Archivo
+font author: Omnibus-Type
+font author site: http://www.omnibus-type.com/
+
+
+icon designer: parkjisun
+icon designer link: /naripuru
+        
+{"bg":"transparent","icon-gradient-0":"#5F2517","icon-gradient-1":"#CAB08D","font":"#000000","slogan":"#141414"}
+      
