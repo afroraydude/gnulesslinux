@@ -1,11 +1,12 @@
-# WombatOS - an **attempt** at a GNU-less Linux Distro
+# Wombat Linux
+an **attempt** at a GNU-less Linux Distro
 ```
-__          __             _           _    ____   _____ 
-\ \        / /            | |         | |  / __ \ / ____|
- \ \  /\  / /__  _ __ ___ | |__   __ _| |_| |  | | (___  
-  \ \/  \/ / _ \| '_ ` _ \| '_ \ / _` | __| |  | |\___ \ 
-   \  /\  / (_) | | | | | | |_) | (_| | |_| |__| |____) |
-    \/  \/ \___/|_| |_| |_|_.__/ \__,_|\__|\____/|_____/ 
+__          __             _           _     _      _                  
+\ \        / /            | |         | |   | |    (_)                 
+ \ \  /\  / /__  _ __ ___ | |__   __ _| |_  | |     _ _ __  _   ___  __
+  \ \/  \/ / _ \| '_ ` _ \| '_ \ / _` | __| | |    | | '_ \| | | \ \/ /
+   \  /\  / (_) | | | | | | |_) | (_| | |_  | |____| | | | | |_| |>  < 
+    \/  \/ \___/|_| |_| |_|_.__/ \__,_|\__| |______|_|_| |_|\__,_/_/\_\
 ```
 
 A Linux Distribution with a non-GNU Userland created by [afroraydude](https://github.com/afroraydude)
@@ -24,6 +25,13 @@ Downloads will be available on my repo found [here](http://packages.afroraydude.
 
 ## More details about the system
 The system will use [uspm](https://github.com/afroraydude/uspm) as its package manager, with the default mirror as my own mirror found [here](http://packages.afroraydude.com/uspm/). It will be shell-only for now.
+
+## Special thanks
+[dslm4515@github](https://github.com/dslm4515) for making the [MUSL-LFS guidebook](https://github.com/dslm4515/Musl-LFS) that Wombat Linux was first built with.
+
+[Alpine Linux](https://alpinelinux.org/) for being musl-based and being a general guide for any extra libs/programs I wanted to add
+
+[Void Linux](https://voidlinux.org/) for all the patches. Seriously.
 
 ## Support
 

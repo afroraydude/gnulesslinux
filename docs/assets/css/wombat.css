@@ -1,0 +1,10 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: scale-down;
+}
+
+.center-horiz {
+    text-align: center;
+}
