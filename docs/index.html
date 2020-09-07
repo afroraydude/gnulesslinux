@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
 <!--
          __                               _           _                            _        _   _     _     
         / _|                             | |         | |                          | |      | | | |   (_)    
@@ -10,80 +11,81 @@
   \__,_|_| |_|  \___/|_|  \__,_|\__, |\__,_|\__,_|\__,_|\___| |_| |_| |_|\__,_|\__,_|\___|  \__|_| |_|_|___/
                                  __/ |                                                                      
                                 |___/                                                                       
--->	
+-->
     <title>Wombat Linux - a lightweight general-purpose distro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-      integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
     <link rel="stylesheet" href="assets/css/wombat.css" />
-  </head>
+</head>
 
-  <body>
+<body>
+    <div class="pure-menu pure-menu-horizontal navbar">
+        <a href="#" class="pure-menu-heading"><img class="navbar-logo" src="assets/logos/display.png" /></a>
+        <ul class="pure-menu-list">
+            
+        </ul>
+    </div>
+    <!--
     <img class="logo" src="assets/logos/display.png" />
+    -->
     <div class="pure-g">
-      <div class="pure-u-1-1">
-        <h1 class="center-horiz" id="welcome-to-wombat-linux">
-          Welcome to Wombat Linux
-        </h1>
-      </div>
+        <div class="pure-u-1-1">
+            <h1 class="center-horiz" id="welcome-to-wombat-linux">
+                Welcome to Wombat Linux
+            </h1>
+        </div>
     </div>
     <div class="pure-g">
-      <div class="pure-u-1-1">
-        <p>
-          Wombat Linux is a lightweight Linux distribution that can run on all
-          types of (for now, x86_64) systems. It relies on musl-libc over glibc
-          and replaces the usual GNU Coreutils with Suckless Base (and hopefully ubase aswell)
-        </p>
-      </div>
+        <div class="pure-u-1-1">
+            <p>
+                Wombat Linux is a lightweight Linux distribution that can run on all
+                types of (for now, x86_64) systems. It relies on musl-libc over glibc
+                and replaces the usual GNU Coreutils with Suckless Base (and hopefully ubase aswell)
+            </p>
+        </div>
     </div>
 
     <div class="pure-g">
         <div class="pure-u-1-1">
-          <p>
-            The package manager for Wombat Linux is 
-            <a href="http://uspm.wombatlinux.org">USPM</a> by 
-            <a href="https://afroraydude.com">afroraydude</a>.
+            <p>
+                The package manager for Wombat Linux is
+                <a href="http://uspm.wombatlinux.org">USPM</a> by
+                <a href="https://afroraydude.com">afroraydude</a>.
 
-            USPM is a simple package manager that is useful for the tracking, 
-            installation, and uninstallation of binary packages built for Wombat 
-            Linux and other Musl-based 
-            systems.
-          </p>
+                USPM is a simple package manager that is useful for the tracking,
+                installation, and uninstallation of binary packages built for Wombat
+                Linux and other Musl-based
+                systems.
+            </p>
         </div>
-      </div>
+    </div>
 
     <div class="pure-g">
-      <div class="pure-u-1-1">
-        <h2 class="code-line" data-line-start="0" data-line-end="1">
-          <a id="special_thanks"></a>Special thanks
-        </h2>
-        <p class="has-line-data" data-line-start="1" data-line-end="2">
-          <a href="https://github.com/dslm4515">dslm4515@github</a> for making
-          the
-          <a href="https://github.com/dslm4515/Musl-LFS">MUSL-LFS guidebook</a>
-          that Wombat Linux was first built with.
-        </p>
-        <p class="has-line-data" data-line-start="3" data-line-end="4">
-          <a href="https://alpinelinux.org/">Alpine Linux</a> for being
-          musl-based and being a general guide for any extra libs/programs I
-          wanted to add
-        </p>
-        <p class="has-line-data" data-line-start="5" data-line-end="6">
-          <a href="https://voidlinux.org/">Void Linux</a> for all the patches.
-          Seriously.
-        </p>
-      </div>
+        <div class="pure-u-1-1">
+            <h2 class="code-line" data-line-start="0" data-line-end="1">
+                <a id="special_thanks"></a>Special thanks
+            </h2>
+            <p class="has-line-data" data-line-start="1" data-line-end="2">
+                <a href="https://github.com/dslm4515">dslm4515@github</a> for making
+                the
+                <a href="https://github.com/dslm4515/Musl-LFS">MUSL-LFS guidebook</a>
+                that Wombat Linux was first built with.
+            </p>
+            <p class="has-line-data" data-line-start="3" data-line-end="4">
+                <a href="https://alpinelinux.org/">Alpine Linux</a> for being
+                musl-based and being a general guide for any extra libs/programs I
+                wanted to add
+            </p>
+            <p class="has-line-data" data-line-start="5" data-line-end="6">
+                <a href="https://voidlinux.org/">Void Linux</a> for all the patches.
+                Seriously.
+            </p>
+        </div>
     </div>
     <div class="code-container">
-    <pre><code class="has-line-data" data-line-start="1" data-line-end="8">
+        <pre><code class="has-line-data" data-line-start="1" data-line-end="8">
 __          __             _           _     _      _                  
 \ \        / /            | |         | |   | |    (_)                 
  \ \  /\  / /__  _ __ ___ | |__   __ _| |_  | |     _ _ __  _   ___  __
@@ -118,5 +120,6 @@ __          __             _           _     _      _
          (U)ltra (S)imple (P)ackage (M)anager
         </code></pre>
     </div>
-  </body>
+</body>
+
 </html>

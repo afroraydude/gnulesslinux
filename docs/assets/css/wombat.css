@@ -14,6 +14,14 @@ body {
   object-fit: scale-down;
 }
 
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar {
+  height: 75px;
+}
+
 .center-horiz {
   text-align: center;
 }
