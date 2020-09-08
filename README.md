@@ -1,5 +1,9 @@
 # Wombat Linux
 an **attempt** at a GNU-less Linux Distro
+
+**MOVED TO [here](https://github.com/wombatlinux)**
+
+
 ```
 __          __             _           _     _      _                  
 \ \        / /            | |         | |   | |    (_)                 
